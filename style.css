@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register_screen {
+    height: 580px;
+    width: 330px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    border: 6px solid white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.register_screen .notch{
+    position: absolute;
+    background-color: black;
+    width: 150px;
+    height: 60px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    top: 20;
+    border-radius: 16px;
+}
+
+.register_screen .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+.register_screen img{
+    height: 100%;
+    width:100%;
+    
+
+    
+}
+
+.register_screen .inputs{
+    position: absolute;
+    z-index: 999;
+}
+
+.inputs {
+    margin-top: 70px ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+    
+
+.inputs h1{
+    color: rgb(252, 252, 252);
+    font-size: 22px;
+    margin-bottom: 50px;
+   
+    
+}
+
+.inputs input{
+    
+    
+    height: 35px;
+    width: 280px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    
+    
+}
+
+.inputs button{
+    height: 45px;
+    background-color: purple;
+    width: 280px;
+    margin-top: 70px;
+    color: white;
+    margin-bottom: 80px;
+    border-radius: 6px;
+
+}
+
+/* interested screen */
+
+.interested_screen{
+    position: relative;
+    background-color: white;
+    width: 330px;
+    height: 580px;
+    align-items: center;
+    border-radius: 30px;
+    display: flex;
+    overflow: hidden;
+    border: 6px solid white;
+    flex-direction: column; 
+    margin: 30px;    
+}
+
+.interested_screen .notch{
+    background-color: black;
+    position: absolute;
+    border-radius: 16px;
+    height: 60px;
+    width: 150px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    top: 20;
+  
+}
+
+.interested_screen .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+.interested_screen img{
+    height: 100%;
+    width: 100%;
+}
+
+.interested_screen h1{
+    color: rgb(252, 252, 252);
+    font-size: 22px;
+    top: 60px;
+    position: absolute;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    margin-top:  120px;
+    position: absolute;
+    flex-wrap: wrap;
+}
+
+.btns input{
+    
+    height: 30px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 6px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;  
+    }
+
+.btns input:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255, 45, 45);
+
+}    
+
+   .interested_screen button{
+        height: 45px;
+        background-color: purple;
+        width: 280px;
+        border-radius: 6px;
+        position: absolute;
+        color: white;
+        margin-top: 436px;  
+    }
+
+    /*coment section*/
+    .comment_section{
+        position: relative;
+        background-color: white;
+        overflow: hidden;
+        display: flex;
+        width: 330px;
+        height: 580px;
+        border-radius: 30px;
+        margin: 30px;
+        align-items: center;
+        border: 6px sloid white;
+        flex-direction: column;
+    }
+
+    .comment_section .notch{
+        position: absolute;
+        background-color: black;
+        width: 150px;
+        height: 60px;
+        right: 50%;
+        left: 50%;
+        border-radius: 16px;
+        transform: translate(-50%, -50%);
+        top: 20;
+    }
+
+    .comment_section bg {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        background-color: black;
+
+    }
+
+    .comment_section img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .comment_section h1{
+        font-size: 22px;
+        position: absolute;
+        top: 60px;
+        color: white;
+    }
+
+    .cmnt{
+        display: flex;
+    }
+
+    .comment_section textarea{
+        height: 30px;
+        width: 80px;
+        display: flex;
+        border: none;
+        outline: none;
+        margin: 10px;
+        padding: ;
+        
+
+    }
+
+    
+
